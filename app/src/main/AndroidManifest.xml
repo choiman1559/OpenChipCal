@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="open.gfl.chipcalc">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <application android:theme="@style/Theme.AppCompat.DayNight" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:allowBackup="true" android:supportsRtl="true" android:roundIcon="@mipmap/ic_launcher_round" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:isSplitRequired="true">
+        <activity android:name="open.gfl.chipcalc.activity.AboutActivity"/>
+        <activity android:name="open.gfl.chipcalc.activity.VpnActivity" android:launchMode="singleTask"/>
+        <activity android:name="open.gfl.chipcalc.activity.BoardActivity"/>
+        <activity android:name="open.gfl.chipcalc.activity.ResultActivity"/>
+        <activity android:name="open.gfl.chipcalc.activity.CalculateActivity"/>
+        <activity android:name="open.gfl.chipcalc.activity.BoardSettingActivity"/>
+        <activity android:name="open.gfl.chipcalc.activity.ImportActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-5415675200682166~8868371663"/>
+        <service android:name="open.gfl.chipcalc.network.AppService" android:permission="android.permission.BIND_VPN_SERVICE">
+            <intent-filter>
+                <action android:name="android.net.VpnService"/>
+                <action android:name="com.github.megatronking.netbare.action.Start"/>
+                <action android:name="com.github.megatronking.netbare.action.Stop"/>
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/NetBare" android:name="com.github.megatronking.netbare.ssl.CertificateInstallActivity" android:excludeFromRecents="true"/>
+    </application>
+
+</manifest>

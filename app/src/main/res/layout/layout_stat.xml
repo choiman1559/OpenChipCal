@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <open.gfl.chipcalc.view.StatProgressView
+        android:id="@+id/statProgView1" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="@+id/textView1" app:layout_constraintEnd_toStartOf="@+id/textView1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@+id/textView1"/>
+    <open.gfl.chipcalc.view.StatProgressView
+        android:id="@+id/statProgView2" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="@+id/textView2" app:layout_constraintEnd_toStartOf="@+id/textView2" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView1"/>
+    <open.gfl.chipcalc.view.StatProgressView
+        android:id="@+id/statProgView3" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="@+id/textView3" app:layout_constraintEnd_toStartOf="@+id/textView3" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@+id/textView3"/>
+    <open.gfl.chipcalc.view.StatProgressView
+        android:id="@+id/statProgView4" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="@+id/textView4" app:layout_constraintEnd_toStartOf="@+id/textView4" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@+id/textView4"/>
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Large" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/placeholder" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Large" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/placeholder" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView1"/>
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Large" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/placeholder" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Large" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/placeholder" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView3"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

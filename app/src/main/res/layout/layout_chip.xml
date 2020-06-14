@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/starTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#404040"
+        android:textColor="@color/chip_star"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <open.gfl.chipcalc.view.ChipTileView
+        android:id="@+id/chipTileView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/chipStatLinearLayout1"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/starTextView" />
+
+    <TextView
+        android:id="@+id/levelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/chip_level"
+        android:fontFamily="@font/mohave_light"
+        android:padding="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/chipTileView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/chipStatLinearLayout1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/chipStatLinearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/statImageView3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="0"
+            android:background="#404040"
+            android:contentDescription="@string/stat" />
+
+        <TextView
+            android:id="@+id/statTextView3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#404040"
+            android:fontFamily="@font/mohave_light"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/statImageView4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="0"
+            android:background="#404040"
+            android:contentDescription="@string/stat" />
+
+        <TextView
+            android:id="@+id/statTextView4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#404040"
+            android:fontFamily="@font/mohave_light"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chipStatLinearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/statImageView1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="0"
+            android:background="#404040"
+            android:contentDescription="@string/stat" />
+
+        <TextView
+            android:id="@+id/statTextView1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#404040"
+            android:fontFamily="@font/mohave_light"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/statImageView2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="0"
+            android:background="#404040"
+            android:contentDescription="@string/stat" />
+
+        <TextView
+            android:id="@+id/statTextView2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#404040"
+            android:fontFamily="@font/mohave_light"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/rotatedImageView"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:contentDescription="@string/rotated"
+        android:padding="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/starTextView"
+        app:srcCompat="@drawable/ticket" />
+</androidx.constraintlayout.widget.ConstraintLayout>

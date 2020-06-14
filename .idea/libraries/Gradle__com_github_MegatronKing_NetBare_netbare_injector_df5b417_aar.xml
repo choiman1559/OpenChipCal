@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.MegatronKing.NetBare:netbare-injector:df5b417@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0464ea378ddee2bcf3149650a5e9ce2b/jetified-netbare-injector-df5b417/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0464ea378ddee2bcf3149650a5e9ce2b/jetified-netbare-injector-df5b417/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.MegatronKing.NetBare/netbare-injector/df5b417/ef52eee48672c254be08bcbbfd778b9888375617/netbare-injector-df5b417-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

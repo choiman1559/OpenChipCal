@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="80dp">
+    <open.gfl.chipcalc.view.BoardView
+        android:id="@+id/boardAdapterBoardView" android:layout_width="80dp" android:layout_height="80dp"/>
+    <TextView android:gravity="center" android:id="@+id/boardAdapterTextView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toStartOf="@+id/ticketLinearLayout" android:layout_toEndOf="@+id/boardAdapterBoardView"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ticketLinearLayout" android:padding="5dp" android:layout_width="80dp" android:layout_height="match_parent" android:layout_alignParentEnd="true">
+        <ImageView android:id="@+id/ticketImageView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:contentDescription="@string/ticket" app:srcCompat="@drawable/ticket"/>
+        <TextView android:gravity="center" android:id="@+id/ticketTextView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.MegatronKing.NetBare:netbare-core:df5b417@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4071c177da67e48bb4f341b90a6dbe55/jetified-netbare-core-df5b417/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4071c177da67e48bb4f341b90a6dbe55/jetified-netbare-core-df5b417/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.MegatronKing.NetBare/netbare-core/df5b417/89a64a227d9ebc19d510c7c7a418308b7b2b0bc3/netbare-core-df5b417-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
