@@ -68,7 +68,7 @@ public class Stat implements Serializable {
         int i3 = 0;
         int i4 = 0;
         for (Chip chip : list) {
-            Stat stat = chip.pt;
+            Stat stat = chip.f78pt;
             i += stat.dmg;
             i2 += stat.brk;
             i3 += stat.hit;

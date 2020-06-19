@@ -5,12 +5,15 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Environment;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
+
+import kotlin.Unit;
 import open.gfl.chipcalc.Global;
 import open.gfl.chipcalc.R;
 import open.gfl.chipcalc.network.GFLInjector;
@@ -22,7 +25,17 @@ import com.github.megatronking.netbare.http.HttpInjectInterceptor;
 import com.github.megatronking.netbare.http.HttpVirtualGatewayFactory;
 import com.github.megatronking.netbare.ip.IpAddress;
 import com.github.megatronking.netbare.ssl.JKS;
+
+import java.io.Closeable;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import kotlin.Metadata;
 import kotlin.collections.CollectionsKt;
@@ -125,7 +138,19 @@ public final class VpnActivity extends AppCompatActivity {
         r0 = move-exception;
      */
     /* Code decompiled incorrectly, please refer to instructions dump. */
-    public final void saveData(java.lang.String r5) {
+    public final void saveData(java.lang.String r5) throws IOException {
+        Calendar instance = Calendar.getInstance();
+        Intrinsics.checkExpressionValueIsNotNull(instance, "Calendar.getInstance()");
+        Date time = instance.getTime();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd_HHmm");
+        String str2 = getUID(r5) + "_" + simpleDateFormat.format(time) + ".json";
+        if (Intrinsics.areEqual((Object) "mounted", (Object) Environment.getExternalStorageState())) {
+            File file = new File(getExternalFilesDir((String) null), str2);
+            Closeable outputStreamWriter = new OutputStreamWriter(new FileOutputStream(file));
+            Throwable th = null;
+            ((OutputStreamWriter) outputStreamWriter).write(r5);
+            Toast.makeText(this, file.getCanonicalPath(), 1).show();
+        }
         //TODO : restore
     }
 

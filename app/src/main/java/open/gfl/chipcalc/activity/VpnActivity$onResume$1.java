@@ -1,6 +1,8 @@
 package open.gfl.chipcalc.activity;
 
 import android.content.DialogInterface;
+
+import java.io.IOException;
 import java.util.ArrayList;
 import kotlin.Metadata;
 import kotlin.jvm.internal.Intrinsics;
@@ -22,7 +24,11 @@ final class VpnActivity$onResume$1 implements DialogInterface.OnClickListener {
         VpnActivity vpnActivity = this.this$0;
         String str = this.$data;
         Intrinsics.checkExpressionValueIsNotNull(str, "data");
-        vpnActivity.saveData(str);
+        try {
+            vpnActivity.saveData(str);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         this.this$0.passChipsAndFinish(this.$chips);
     }
 }

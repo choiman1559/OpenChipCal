@@ -6,18 +6,18 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import open.gfl.chipcalc.Global;
 import open.gfl.chipcalc.R;
 import open.gfl.chipcalc.puzzle.Chip;
 import java.util.ArrayList;
 import java.util.HashMap;
+
 import kotlin.Metadata;
 import kotlin.TypeCastException;
 import kotlin.jvm.internal.Intrinsics;
@@ -53,9 +53,9 @@ public final class ImportActivity extends AppCompatActivity {
         setContentView((int) R.layout.activity_import);
         initNotificationChannel();
         new Thread(ImportActivity$onCreate$1.INSTANCE).start();
-        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
-        ((Button) findViewById(R.id.fileButton)).setOnClickListener(new ImportActivity$onCreate$2(this));
-        ((Button) findViewById(R.id.loginButton)).setOnClickListener(new ImportActivity$onCreate$3(this));
+        setSupportActionBar(findViewById(R.id.toolbar));
+        findViewById(R.id.fileButton).setOnClickListener(new ImportActivity$onCreate$2(this));
+        findViewById(R.id.loginButton).setOnClickListener(new ImportActivity$onCreate$3(this));
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -75,6 +75,7 @@ public final class ImportActivity extends AppCompatActivity {
     protected void onActivityResult(int i, int i2, Intent intent) {
         super.onActivityResult(i, i2, intent);
         if (i == 1 && i2 == -1) {
+            Log.d("uri",intent != null ? intent.getData().toString() : "null");
             ArrayList<Chip> readChip_file = Chip.readChip_file(getApplicationContext(), intent != null ? intent.getData() : null);
             if (readChip_file == null) {
                 Toast.makeText(this, getString(R.string.toast_import_fail), Toast.LENGTH_SHORT).show();
@@ -88,19 +89,17 @@ public final class ImportActivity extends AppCompatActivity {
         }
     }
 
-    /* access modifiers changed from: private */
     public final void fButtonClick() {
         Intent intent = new Intent("android.intent.action.GET_CONTENT");
-        intent.setType("*/*");
+        intent.setType("application/*");
         startActivityForResult(intent, 1);
     }
 
-    /* access modifiers changed from: private */
     public final void lButtonClick() {
         startActivity(new Intent(this, VpnActivity.class));
     }
 
-    private final void initNotificationChannel() {
+    private void initNotificationChannel() {
         if (Build.VERSION.SDK_INT >= 26) {
             String string = getString(R.string.channel_name);
             Intrinsics.checkExpressionValueIsNotNull(string, "getString(R.string.channel_name)");

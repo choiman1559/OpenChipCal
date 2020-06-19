@@ -47,7 +47,7 @@ public final class ResultActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        setContentView((int) R.layout.activity_result);
+        setContentView(R.layout.activity_result);
         Serializable serializableExtra = getIntent().getSerializableExtra("results");
         if (serializableExtra != null) {
             ArrayList arrayList = (ArrayList) serializableExtra;
@@ -62,7 +62,7 @@ public final class ResultActivity extends AppCompatActivity {
                     AssembledResult assembledResult = (AssembledResult) it.next();
                     arrayList2.add(new Board(stringExtra, intExtra, stat, assembledResult.chips, assembledResult.locations));
                 }
-                ListView listView = (ListView) findViewById(R.id.resultListView);
+                ListView listView = findViewById(R.id.resultListView);
                 Intrinsics.checkExpressionValueIsNotNull(listView, "resultListView");
                 listView.setAdapter(new BoardAdapter(this, arrayList2));
                 listView.invalidate();

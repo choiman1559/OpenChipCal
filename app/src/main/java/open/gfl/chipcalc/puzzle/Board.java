@@ -16,6 +16,24 @@ import open.gfl.chipcalc.CipherSuite;
 
 public class Board implements Serializable {
     public static int EMPTY = -1;
+    public static final String NAME_2B14 = "2B14";
+    public static final String NAME_AGS30 = "AGS-30";
+    public static final String NAME_AT4 = "AT4";
+    public static final String NAME_BGM71 = "BGM-71";
+    public static final String NAME_M2 = "M2";
+    public static final String NAME_QLZ04 = "QLZ-04";
+    public static String[] NAMES = {NAME_BGM71, NAME_AGS30, NAME_2B14, NAME_M2, NAME_AT4, NAME_QLZ04};
+    public static int UNUSED = -2;
+    private final List<Point> chipLocs;
+    public final ArrayList<Chip> chips;
+    private final Stat maxStat;
+    public final String name;
+    public final int star;
+    private final Stat stat;
+    public final double statPerc;
+    public final int ticket;
+    public final int xp;
+
     public static final Map<String, Integer> MAP_COLOR = new HashMap<String, Integer>() {
         {
             put(Board.NAME_BGM71, 1);
@@ -68,23 +86,6 @@ public class Board implements Serializable {
             }
         }
     };
-    public static final String NAME_2B14 = "2B14";
-    public static final String NAME_AGS30 = "AGS-30";
-    public static final String NAME_AT4 = "AT4";
-    public static final String NAME_BGM71 = "BGM-71";
-    public static final String NAME_M2 = "M2";
-    public static final String NAME_QLZ04 = "QLZ-04";
-    public static String[] NAMES = {NAME_BGM71, NAME_AGS30, NAME_2B14, NAME_M2, NAME_AT4, NAME_QLZ04};
-    public static int UNUSED = -2;
-    private final List<Point> chipLocs;
-    public final ArrayList<Chip> chips;
-    private final Stat maxStat;
-    public final String name;
-    public final int star;
-    private final Stat stat;
-    public final double statPerc;
-    public final int ticket;
-    public final int xp;
 
     public Board(String str, int i, Stat stat2, List<Chip> list, List<Point> list2) {
         this.name = str;

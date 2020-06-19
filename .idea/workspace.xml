@@ -572,244 +572,6 @@
       <change afterPath="$PROJECT_DIR$/../GFAlarm-master/LocalizationResources/Settings.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../GFAlarm-master/LocalizationResources/app.config" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../GFAlarm-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/androidTest/java/com/fqxd/GFCalChip/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/com/fqxd/gfcalchip/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/http/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/http/ProxyDebugFrame.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/http/ProxyDebugFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/http/ProxyHandlerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/http/ProxyMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/http/ProxyTunnel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/http/ResearchConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/image/ColorMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/image/ImageProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/json/ArrayJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/json/BooleanJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/json/Json.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/json/JsonParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/json/NullJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/json/NumberJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/json/ObjectJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/json/TextJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/Chip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/FStat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/PuzzleMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/Stat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/assembly/Assembler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/assembly/AssemblyResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/assembly/BinaryMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/assembly/ChipCombinationIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/assembly/ChipFreq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/assembly/PresetCombinationIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/assembly/Progress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/assembly/TypeCombinationIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/preset/PuzzlePreset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/preset/PuzzlePresetMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/zdd/ZDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/zdd/ZDDMemoCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/zdd/ZDDNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/puzzle/zdd/ZDDNodeTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/resource/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/resource/Resources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/setting/BoardSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/setting/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/setting/Setting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/setting/StatPreset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/setting/StatPresetMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/MainFrame.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/ResearchFrame.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/ResearchFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/component/ColorLabel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/component/TagPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/component/TagPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/AppSettingDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/AppSettingDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/ApplyDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/ApplyDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/CalcSettingDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/CalcSettingDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/FilterDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/FilterDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/ImageDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/ImageDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/ImageModifyDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/ImageModifyDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/JsonFilterDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/JsonFilterDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/ProxyDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/ProxyDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/StatDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/StatDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/TagDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/dialog/TagDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/help/HelpAboutDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/help/HelpAboutDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/help/HelpAboutHiddenDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/help/HelpAboutHiddenDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/help/HelpAppDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/help/HelpAppDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/help/HelpChipDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/help/HelpChipDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/help/HelpDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/help/HelpDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/help/HelpProxyDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/help/HelpProxyDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/renderer/ChipFreqListCellRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/renderer/ChipListCellRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/renderer/CombListCellRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/renderer/HelpLevelStatTableCellRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/renderer/HelpTableCellRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/renderer/InvListCellRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/renderer/TagTableCellRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/shortcut/Shortcut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/shortcut/ShortcutKeyAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/tip/TipMouseListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/transfer/InvListTransferActionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/ui/transfer/InvListTransferHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/util/FRational.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/util/Fn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/util/IO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/util/Rational.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/util/Ref.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/util/StrIntMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/util/Version2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/java/main/util/Version3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/MP448.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/ascending.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/brk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/checked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/chip_equipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/chip_marked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/chip_rotated.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/combine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/combine_pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/combine_start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/combine_stop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/descending.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/display_pt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/display_stat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/dmg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/filter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/filter_apply.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/font.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/font/mohave/Mohave-Light.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/font/mohave/SIL Open Font License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/help/proxy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/hit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/imgproc/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/imgproc/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/imgproc/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/imgproc/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/imgproc/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/imgproc/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/imgproc/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/imgproc/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/imgproc/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/imgproc/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/imgproc/brk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/imgproc/dmg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/imgproc/hit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/imgproc/rld.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/language/en-US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/language/ja-JP.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/language/ko-KR.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/panel_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/panel_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/paused.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/picture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/2B14_5A_0_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/2B14_5A_0_2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/2B14_5A_0_3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/2B14_5A_0_4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/2B14_5A_0_5.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/AGS-30_5A_0_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/AGS-30_5A_0_2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/AGS-30_5A_0_3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/AGS-30_5A_0_4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/AGS-30_5A_0_5.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/AT4_5A_0_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/AT4_5A_0_2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/AT4_5A_0_3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/AT4_5A_0_4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/AT4_5A_0_5.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/BGM-71_5A_0_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/BGM-71_5A_0_2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/BGM-71_5A_0_3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/BGM-71_5A_0_4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/BGM-71_5A_0_5.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/M2_4_0_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/M2_4_0_2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/M2_4_0_3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/M2_4_0_4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/M2_4_0_5.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/M2_5B_1_5.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/QLZ-04_5A_0_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/QLZ-04_5A_0_2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/QLZ-04_5A_0_3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/QLZ-04_5A_0_4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/preset/QLZ-04_5A_0_5.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/rld.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/rotate_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/rotate_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/save.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/saveas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/setting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/setting_preset.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/setting_pt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/setting_stat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/ticket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/main/resources/unchecked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/app/src/test/java/com/fqxd/GFCalChip/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFCalChip/settings.gradle" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../GFNeko-master/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../GFNeko-master/AndroidManifest.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../GFNeko-master/LICENSE" afterDir="false" />
@@ -1401,265 +1163,6 @@
       <change afterPath="$PROJECT_DIR$/../NonRootUnCen/settings.gradle" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NotiSender_project/NotiSender" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NotiSender_project/device-2020-03-25-150056.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_4_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_preference_preference_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_MegatronKing_NetBare_netbare_core_df5b417_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_MegatronKing_NetBare_netbare_injector_df5b417_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_httpclient_commons_httpclient_3_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_0_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_10_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcpkix_jdk15on_1_65_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15on_1_65_01_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_72_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_72_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_72_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_72_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/OpenChipCal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/open/gfl/chipcalc/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/CipherSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/Global.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/AboutActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/BoardActivity$onCreate$1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/BoardActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/BoardSettingActivity$nameSpinnerOnSelectedListener$1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/BoardSettingActivity$onBackPressed$1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/BoardSettingActivity$onBackPressed$2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/BoardSettingActivity$onCreate$1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/BoardSettingActivity$onCreate$2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/BoardSettingActivity$starRatingBarChange$1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/BoardSettingActivity$templateSpinnerOnSelectedListener$1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/BoardSettingActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onBackPressed$1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onBackPressed$2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ImportActivity$onCreate$1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ImportActivity$onCreate$2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ImportActivity$onCreate$3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ImportActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity$listItemClick$1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity$onBackPressed$1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity$onBackPressed$2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/VpnActivity$onCreate$1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/VpnActivity$onResume$1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/VpnActivity$onResume$2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/VpnActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/adapter/BoardAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/adapter/ChipAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/AssembledResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/Assembler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/BoardTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/CCIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/StatTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/qcEKqdrOurNV5CFQO_UO1CXtORw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/network/AppService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/network/AuthCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/network/GFLInjector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/network/GFLReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Chip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/ChipComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/PuzzleMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/util/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/util/Rational.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/util/Stat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/util/StrIntMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/view/BoardView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/view/ChipGridView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/view/ChipTileView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/view/StatProgressView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/brk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dmg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/plus_twenty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rld.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rotate_max.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rotated.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ticket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/mohave_light.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/interpolator/fast_out_slow_in.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/interpolator/mtrl_linear.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_board.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_boardsetting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_calculate.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_import.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_result.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vpn.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_chip.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_list_board.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_stat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/preference.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi-v4/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi-v4/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi-v4/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi-v4/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi-v4/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi-v4/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi-v4/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi-v4/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi-v4/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi-v4/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi-v4/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi-v4/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi-v4/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi-v4/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi-v4/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_2b14_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_2b14_2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_2b14_3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_2b14_4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_2b14_5.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_ags30_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_ags30_2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_ags30_3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_ags30_4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_ags30_5.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_at4_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_at4_2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_at4_3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_at4_4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_at4_5.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_bgm71_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_bgm71_2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_bgm71_3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_bgm71_4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_bgm71_5.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_m2_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_m2_2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_m2_3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_m2_4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_m2_5.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_m2_5_p.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_qlz04_1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_qlz04_2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_qlz04_3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_qlz04_4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/preset_qlz04_5.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/animators.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/anims.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/bools.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/drawables.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/fonts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/integers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/interpolators.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/menus.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/plurals.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/public.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/raws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/xmls.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/splits0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/standalone_badge.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/standalone_badge_gravity_bottom_end.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/standalone_badge_gravity_bottom_start.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/standalone_badge_gravity_top_start.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/open/gfl/chipcalc/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../XD-User-Center-master/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../XD-User-Center-master/LICENSE" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../XD-User-Center-master/README.md" afterDir="false" />
@@ -2774,8 +2277,33 @@
       <change afterPath="$PROJECT_DIR$/../prototypeg-master/src/main/java/prototypeg/utils/DataPacketCaster.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../prototypeg-master/src/main/java/prototypeg/utils/Key.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../prototypeg_android" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ImportActivity$onCreate$1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ImportActivity$onCreate$1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ImportActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ImportActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/VpnActivity$onResume$1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/VpnActivity$onResume$1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/VpnActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/VpnActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/network/GFLInjector.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/network/GFLInjector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Chip.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Chip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/util/Stat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/util/Stat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_boardsetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_boardsetting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/public.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2817,6 +2345,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="1f55bc1a" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-06-18T13:22:49.784Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Girls-Frontline-Tools" />
@@ -2919,6 +2449,10 @@
       <screen x="0" y="25" width="1920" height="989" />
     </state>
     <state x="696" y="338" width="518" height="359" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1920.989@0.25.1920.989" timestamp="1592044093766" />
+    <state x="808" y="280" width="304" height="474" key="AndroidProcessChooserDialog" timestamp="1592487571008">
+      <screen x="0" y="25" width="1920" height="989" />
+    </state>
+    <state x="808" y="280" width="304" height="474" key="AndroidProcessChooserDialog/0.25.1920.989@0.25.1920.989" timestamp="1592487571008" />
     <state x="497" y="38" width="915" height="958" key="CommitChangelistDialog2" timestamp="1592113740473">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
@@ -2927,25 +2461,142 @@
       <screen x="0" y="25" width="1920" height="989" />
     </state>
     <state x="738" y="275" width="424" height="480" key="FileChooserDialogImpl/0.25.1920.989@0.25.1920.989" timestamp="1592051401807" />
-    <state width="1866" height="254" key="GridCell.Tab.0.bottom" timestamp="1592111087206">
+    <state width="1866" height="314" key="GridCell.Tab.0.bottom" timestamp="1592581392467">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state width="1866" height="254" key="GridCell.Tab.0.bottom/0.25.1920.989@0.25.1920.989" timestamp="1592111087206" />
-    <state width="1866" height="254" key="GridCell.Tab.0.center" timestamp="1592111087205">
+    <state width="1866" height="314" key="GridCell.Tab.0.bottom/0.25.1920.989@0.25.1920.989" timestamp="1592581392467" />
+    <state width="1866" height="314" key="GridCell.Tab.0.center" timestamp="1592581392467">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state width="1866" height="254" key="GridCell.Tab.0.center/0.25.1920.989@0.25.1920.989" timestamp="1592111087205" />
-    <state width="1866" height="254" key="GridCell.Tab.0.left" timestamp="1592111087205">
+    <state width="1866" height="314" key="GridCell.Tab.0.center/0.25.1920.989@0.25.1920.989" timestamp="1592581392467" />
+    <state width="1866" height="314" key="GridCell.Tab.0.left" timestamp="1592581392466">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state width="1866" height="254" key="GridCell.Tab.0.left/0.25.1920.989@0.25.1920.989" timestamp="1592111087205" />
-    <state width="1866" height="254" key="GridCell.Tab.0.right" timestamp="1592111087205">
+    <state width="1866" height="314" key="GridCell.Tab.0.left/0.25.1920.989@0.25.1920.989" timestamp="1592581392466" />
+    <state width="1866" height="314" key="GridCell.Tab.0.right" timestamp="1592581392467">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state width="1866" height="254" key="GridCell.Tab.0.right/0.25.1920.989@0.25.1920.989" timestamp="1592111087205" />
-    <state x="963" y="127" width="838" height="712" key="find.popup" timestamp="1592111017467">
+    <state width="1866" height="314" key="GridCell.Tab.0.right/0.25.1920.989@0.25.1920.989" timestamp="1592581392467" />
+    <state width="1866" height="314" key="GridCell.Tab.1.bottom" timestamp="1592581392468">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state x="963" y="127" width="838" height="712" key="find.popup/0.25.1920.989@0.25.1920.989" timestamp="1592111017467" />
+    <state width="1866" height="314" key="GridCell.Tab.1.bottom/0.25.1920.989@0.25.1920.989" timestamp="1592581392468" />
+    <state width="1866" height="314" key="GridCell.Tab.1.center" timestamp="1592581392468">
+      <screen x="0" y="25" width="1920" height="989" />
+    </state>
+    <state width="1866" height="314" key="GridCell.Tab.1.center/0.25.1920.989@0.25.1920.989" timestamp="1592581392468" />
+    <state width="1866" height="314" key="GridCell.Tab.1.left" timestamp="1592581392468">
+      <screen x="0" y="25" width="1920" height="989" />
+    </state>
+    <state width="1866" height="314" key="GridCell.Tab.1.left/0.25.1920.989@0.25.1920.989" timestamp="1592581392468" />
+    <state width="1866" height="314" key="GridCell.Tab.1.right" timestamp="1592581392468">
+      <screen x="0" y="25" width="1920" height="989" />
+    </state>
+    <state width="1866" height="314" key="GridCell.Tab.1.right/0.25.1920.989@0.25.1920.989" timestamp="1592581392468" />
+    <state x="905" y="131" width="838" height="712" key="find.popup" timestamp="1592580957403">
+      <screen x="0" y="25" width="1920" height="989" />
+    </state>
+    <state x="905" y="131" width="838" height="712" key="find.popup/0.25.1920.989@0.25.1920.989" timestamp="1592580957403" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity$listItemClick$1.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Chip.java</url>
+          <line>346</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
