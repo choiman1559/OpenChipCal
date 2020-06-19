@@ -1,9 +1,14 @@
 # OpenChipCal
-Open-Sorce version of GFChipCalc-android (https://play.google.com/store/apps/details?id=bunnyspa.gfl.chipcalc)
+Open-Sorce version of [GFChipCalc-android](https://play.google.com/store/apps/details?id=bunnyspa.gfl.chipcalc)
+
+### WARNING
+ - This source code is not completely reversed yet, so that could have some problem in app. 
+ - This repo does not provide any pre-built files, so if you want to use the app, use [GFChipCalc-android](https://play.google.com/store/apps/details?id=bunnyspa.gfl.chipcalc)
+ or build your own. 
 
 ## Disclaimer
  - This softwear is under the [GNU General Public License v2.0](https://github.com/choiman1559/OpenChipCal/blob/master/LICENSE).
-  - This software was produced in the same way as [WINE](https://www.winehq.org/), and was reversed under a legitimate process in compliance with the Korean copyright law.
+ - This software was produced in the same way as [WINE](https://www.winehq.org/), and was reversed under a legitimate process in compliance with the Korean copyright law.
  - This softwear is based on [GFChipCalc](https://github.com/Bunnyspa/GFChipCalc), not a GFChipCalc-android.
  - Girls' Frontline® and its related images are registered trademarks of Sunborn Network Technology Co., Ltd.
  - This application is not affiliated with Sunborn Network Technology Co., Ltd. in any way.
