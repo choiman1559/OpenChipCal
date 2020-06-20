@@ -127,7 +127,7 @@ public class CCIterator implements Iterator<List<Chip>> {
     static boolean hasEnoughChips(Map<String, List<Chip>> map, BoardTemplate boardTemplate) {
         Map<String, Integer> map2 = boardTemplate.nameCountMap;
         for (String next : map2.keySet()) {
-            if (getSize(map, next) < map2.get(next).intValue()) {
+            if (getSize(map, next) < map2.get(next)) {
                 return false;
             }
         }

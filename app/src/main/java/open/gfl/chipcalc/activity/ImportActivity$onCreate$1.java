@@ -11,7 +11,6 @@ final class ImportActivity$onCreate$1 implements Runnable {
     }
 
     public final void run() {
-        //TODO : fix
         new Global();
     }
 }

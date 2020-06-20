@@ -12,5 +12,6 @@ final class CalculateActivity$onBackPressed$2 implements DialogInterface.OnClick
     }
 
     public final void onClick(DialogInterface dialogInterface, int i) {
+
     }
 }

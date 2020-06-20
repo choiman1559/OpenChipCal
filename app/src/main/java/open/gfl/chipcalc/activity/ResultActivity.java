@@ -78,7 +78,7 @@ public final class ResultActivity extends AppCompatActivity {
         new AlertDialog.Builder(this).setTitle(getString(R.string.msg_back_title)).setMessage(getString(R.string.msg_back)).setPositiveButton(R.string.yes, new ResultActivity$onBackPressed$1(this)).setNegativeButton(R.string.no, ResultActivity$onBackPressed$2.INSTANCE).show();
     }
 
-    /* access modifiers changed from: private */
+
     public final void onBackPressedPositive() {
         super.onBackPressed();
         finish();

@@ -25,7 +25,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class Chip implements Serializable {
-    /* access modifiers changed from: private */
+
     private static final String[] NAMES_1;
     private static final String[] NAMES_2;
     private static final String[] NAMES_3;
@@ -256,15 +256,6 @@ public class Chip implements Serializable {
         return Integer.parseInt(str.substring(0, 1));
     }
 
-    /* JADX WARNING: Code restructure failed: missing block: B:14:0x0033, code lost:
-        r3 = move-exception;
-     */
-    /* JADX WARNING: Code restructure failed: missing block: B:16:?, code lost:
-        r0.close();
-     */
-    /* JADX WARNING: Code restructure failed: missing block: B:20:0x003c, code lost:
-        throw r3;
-     */
     public static ArrayList<Chip> readChip_file(Context context, Uri uri) {
         try {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(context.getContentResolver().openInputStream(uri)));
@@ -283,7 +274,6 @@ public class Chip implements Serializable {
         return null;
     }
 
-    /* access modifiers changed from: private */
     public static String[] getNames(String str) {
         return NAMES_N[Arrays.asList(TYPES).indexOf(str)];
     }
@@ -304,8 +294,6 @@ public class Chip implements Serializable {
         }
     }
 
-    /* JADX WARNING: Removed duplicated region for block: B:26:0x0079 A[SYNTHETIC] */
-    /* JADX WARNING: Removed duplicated region for block: B:7:0x0062  */
     @NotNull
     private static ArrayList<Chip> parse(String str) throws JSONException {
         boolean z = true;

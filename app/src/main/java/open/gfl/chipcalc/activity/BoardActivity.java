@@ -92,7 +92,7 @@ public final class BoardActivity extends AppCompatActivity {
         throw new TypeCastException("null cannot be cast to non-null type open.gfl.chipcalc.puzzle.Board");
     }
 
-    /* access modifiers changed from: private */
+
     public final void fabClick() {
         this.max = !this.max;
         FloatingActionButton floatingActionButton = (FloatingActionButton) findViewById(R.id.fab);

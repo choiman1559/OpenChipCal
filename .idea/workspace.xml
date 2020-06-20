@@ -2281,36 +2281,29 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/BoardActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/BoardActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/BoardSettingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/BoardSettingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onBackPressed$2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onBackPressed$2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ImportActivity$onCreate$1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ImportActivity$onCreate$1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ImportActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ImportActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/VpnActivity$onResume$1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/VpnActivity$onResume$1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/VpnActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/VpnActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/network/GFLInjector.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/network/GFLInjector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/Assembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/Assembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/CCIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/CCIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Chip.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Chip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/util/Stat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/util/Stat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_boardsetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_boardsetting.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/public.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="1f55bc1a" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="5.4_FWVGA_API_24" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -2461,42 +2454,46 @@
       <screen x="0" y="25" width="1920" height="989" />
     </state>
     <state x="738" y="275" width="424" height="480" key="FileChooserDialogImpl/0.25.1920.989@0.25.1920.989" timestamp="1592051401807" />
-    <state width="1866" height="314" key="GridCell.Tab.0.bottom" timestamp="1592581392467">
+    <state width="1866" height="314" key="GridCell.Tab.0.bottom" timestamp="1592650415396">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state width="1866" height="314" key="GridCell.Tab.0.bottom/0.25.1920.989@0.25.1920.989" timestamp="1592581392467" />
-    <state width="1866" height="314" key="GridCell.Tab.0.center" timestamp="1592581392467">
+    <state width="1866" height="314" key="GridCell.Tab.0.bottom/0.25.1920.989@0.25.1920.989" timestamp="1592650415396" />
+    <state width="1866" height="314" key="GridCell.Tab.0.center" timestamp="1592650415395">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state width="1866" height="314" key="GridCell.Tab.0.center/0.25.1920.989@0.25.1920.989" timestamp="1592581392467" />
-    <state width="1866" height="314" key="GridCell.Tab.0.left" timestamp="1592581392466">
+    <state width="1866" height="314" key="GridCell.Tab.0.center/0.25.1920.989@0.25.1920.989" timestamp="1592650415395" />
+    <state width="1866" height="314" key="GridCell.Tab.0.left" timestamp="1592650415395">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state width="1866" height="314" key="GridCell.Tab.0.left/0.25.1920.989@0.25.1920.989" timestamp="1592581392466" />
-    <state width="1866" height="314" key="GridCell.Tab.0.right" timestamp="1592581392467">
+    <state width="1866" height="314" key="GridCell.Tab.0.left/0.25.1920.989@0.25.1920.989" timestamp="1592650415395" />
+    <state width="1866" height="314" key="GridCell.Tab.0.right" timestamp="1592650415396">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state width="1866" height="314" key="GridCell.Tab.0.right/0.25.1920.989@0.25.1920.989" timestamp="1592581392467" />
-    <state width="1866" height="314" key="GridCell.Tab.1.bottom" timestamp="1592581392468">
+    <state width="1866" height="314" key="GridCell.Tab.0.right/0.25.1920.989@0.25.1920.989" timestamp="1592650415396" />
+    <state width="1866" height="314" key="GridCell.Tab.1.bottom" timestamp="1592650418511">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state width="1866" height="314" key="GridCell.Tab.1.bottom/0.25.1920.989@0.25.1920.989" timestamp="1592581392468" />
-    <state width="1866" height="314" key="GridCell.Tab.1.center" timestamp="1592581392468">
+    <state width="1866" height="314" key="GridCell.Tab.1.bottom/0.25.1920.989@0.25.1920.989" timestamp="1592650418511" />
+    <state width="1866" height="314" key="GridCell.Tab.1.center" timestamp="1592650418510">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state width="1866" height="314" key="GridCell.Tab.1.center/0.25.1920.989@0.25.1920.989" timestamp="1592581392468" />
-    <state width="1866" height="314" key="GridCell.Tab.1.left" timestamp="1592581392468">
+    <state width="1866" height="314" key="GridCell.Tab.1.center/0.25.1920.989@0.25.1920.989" timestamp="1592650418510" />
+    <state width="1866" height="314" key="GridCell.Tab.1.left" timestamp="1592650418510">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state width="1866" height="314" key="GridCell.Tab.1.left/0.25.1920.989@0.25.1920.989" timestamp="1592581392468" />
-    <state width="1866" height="314" key="GridCell.Tab.1.right" timestamp="1592581392468">
+    <state width="1866" height="314" key="GridCell.Tab.1.left/0.25.1920.989@0.25.1920.989" timestamp="1592650418510" />
+    <state width="1866" height="314" key="GridCell.Tab.1.right" timestamp="1592650418511">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state width="1866" height="314" key="GridCell.Tab.1.right/0.25.1920.989@0.25.1920.989" timestamp="1592581392468" />
-    <state x="905" y="131" width="838" height="712" key="find.popup" timestamp="1592580957403">
+    <state width="1866" height="314" key="GridCell.Tab.1.right/0.25.1920.989@0.25.1920.989" timestamp="1592650418511" />
+    <state x="619" y="215" width="838" height="712" key="find.popup" timestamp="1592649865166">
       <screen x="0" y="25" width="1920" height="989" />
     </state>
-    <state x="905" y="131" width="838" height="712" key="find.popup/0.25.1920.989@0.25.1920.989" timestamp="1592580957403" />
+    <state x="619" y="215" width="838" height="712" key="find.popup/0.25.1920.989@0.25.1920.989" timestamp="1592649865166" />
+    <state x="655" y="138" width="600" height="759" key="refactoring.ChangeSignatureDialog" timestamp="1592643447400">
+      <screen x="0" y="25" width="1920" height="989" />
+    </state>
+    <state x="655" y="138" width="600" height="759" key="refactoring.ChangeSignatureDialog/0.25.1920.989@0.25.1920.989" timestamp="1592643447400" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2508,13 +2505,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Chip.java</url>
-          <line>346</line>
+          <line>334</line>
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity.java</url>
-          <line>203</line>
-          <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/ResultActivity.java</url>
@@ -2557,46 +2549,102 @@
           <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="194" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Board.java</url>
+          <line>246</line>
+          <option name="timeStamp" value="202" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="195" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/Assembler.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="196" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/Assembler.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="204" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="197" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Chip.java</url>
+          <line>267</line>
+          <option name="timeStamp" value="205" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="198" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/puzzle/Chip.java</url>
+          <line>268</line>
+          <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="199" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/AssembledResult.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="224" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="200" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/AssembledResult.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="225" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/activity/CalculateActivity$onCreate$4.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="201" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/AssembledResult.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/AssembledResult.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/CCIterator.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/CCIterator.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/CCIterator.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/CCIterator.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/CCIterator.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/CCIterator.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/CCIterator.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/CCIterator.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/open/gfl/chipcalc/assembly/Assembler.java</url>
+          <line>38</line>
+          <properties class="open.gfl.chipcalc.assembly.Assembler" method="&lt;init&gt;" />
+          <option name="timeStamp" value="223" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="serializableExtra" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

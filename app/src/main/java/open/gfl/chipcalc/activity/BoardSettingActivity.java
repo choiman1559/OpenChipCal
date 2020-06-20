@@ -85,12 +85,12 @@ public final class BoardSettingActivity extends AppCompatActivity {
         new AlertDialog.Builder(this).setTitle(getString(R.string.msg_back_title)).setMessage(getString(R.string.msg_back)).setPositiveButton(R.string.yes, new BoardSettingActivity$onBackPressed$1(this)).setNegativeButton(R.string.no, BoardSettingActivity$onBackPressed$2.INSTANCE).show();
     }
 
-    /* access modifiers changed from: private */
+
     public final void reimportButtonClick() {
         onBackPressed();
     }
 
-    /* access modifiers changed from: private */
+
     public final void calculateButtonClick() {
         Spinner spinner = (Spinner) findViewById(R.id.nameSpinner);
         RatingBar ratingBar = (RatingBar) findViewById(R.id.starRatingBar);
@@ -125,7 +125,7 @@ public final class BoardSettingActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /* access modifiers changed from: private */
+
     public final void updateTemplate() {
         List list;
         Spinner spinner = (Spinner) findViewById(R.id.nameSpinner);
@@ -162,7 +162,7 @@ public final class BoardSettingActivity extends AppCompatActivity {
         updateStatText();
     }
 
-    /* access modifiers changed from: private */
+
     public final void updateStatText() {
         StatTemplate statTemplate;
         Spinner spinner = (Spinner) findViewById(R.id.templateSpinner);

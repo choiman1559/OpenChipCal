@@ -5,9 +5,6 @@ import open.gfl.chipcalc.puzzle.Board;
 import open.gfl.chipcalc.puzzle.Chip;
 import open.gfl.chipcalc.util.Stat;
 
-//import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
-//TODO : add gradle
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -116,25 +113,24 @@ public class Assembler {
     private synchronized void addToList(AssembledResult assembledResult) {
         double d = assembledResult.percent;
         if (this.resultPercentThreshold <= d) {
-            if (!this.results.containsKey(Double.valueOf(d))) {
-                this.results.put(Double.valueOf(d), new ArrayList());
+            if (!this.results.containsKey(d)) {
+                this.results.put(d, new ArrayList());
             }
-            this.results.get(Double.valueOf(d)).add(assembledResult);
+            this.results.get(d).add(assembledResult);
             if (this.maxResultPercent < d) {
                 this.maxResultPercent = d;
             }
-            if (10 < this.results.get(Double.valueOf(this.maxResultPercent)).size()) {
+            if (10 < this.results.get(this.maxResultPercent).size()) {
                 this.resultPercentThreshold = d;
-                this.results.clear();
-                this.results.put(Double.valueOf(d), this.results.get(Double.valueOf(d)));
+                this.results.put(d, this.results.get(d));
             }
         }
     }
 
     public double getHighestPercent() {
-        /*if (this.results.isEmpty()) {
-            return FirebaseRemoteConfig.DEFAULT_VALUE_FOR_DOUBLE;
-        }*/
+        if (this.results.isEmpty()) {
+            return 0.0d;
+        }
         return this.maxResultPercent;
     }
 

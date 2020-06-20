@@ -2,17 +2,17 @@ package open.gfl.chipcalc.activity;
 
 import android.os.Handler;
 import android.widget.TextView;
-import open.gfl.chipcalc.Global;
 import open.gfl.chipcalc.R;
+import open.gfl.chipcalc.Global;
 import kotlin.Metadata;
 import kotlin.jvm.internal.Intrinsics;
 
-@Metadata(bv = {1, 0, 3}, d1 = {"\u0000\u0011\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0000*\u0001\u0000\b\n\u0018\u00002\u00020\u0001J\b\u0010\u0002\u001a\u00020\u0003H\u0016¨\u0006\u0004"}, d2 = {"open/gfl/chipcalc/activity/CalculateActivity$onCreate$4", "Ljava/lang/Runnable;", "run", "", "app_release"}, k = 1, mv = {1, 1, 16})
+@Metadata(bv = {1, 0, 3}, d1 = {"\u0000\u0011\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0000*\u0001\u0000\b\n\u0018\u00002\u00020\u0001J\b\u0010\u0002\u001a\u00020\u0003H\u0016¨\u0006\u0004"}, d2 = {"bunnyspa/gfl/chipcalc/activity/CalculateActivity$onCreate$4", "Ljava/lang/Runnable;", "run", "", "app_release"}, k = 1, mv = {1, 1, 16})
 /* compiled from: CalculateActivity.kt */
 public final class CalculateActivity$onCreate$4 implements Runnable {
-    final /* synthetic */ Handler $handler;
-    final /* synthetic */ TextView $percentTextView;
-    final /* synthetic */ CalculateActivity this$0;
+    final Handler $handler;
+    final TextView $percentTextView;
+    final CalculateActivity this$0;
 
     CalculateActivity$onCreate$4(CalculateActivity calculateActivity, TextView textView, Handler handler) {
         this.this$0 = calculateActivity;
@@ -35,3 +35,5 @@ public final class CalculateActivity$onCreate$4 implements Runnable {
         }
     }
 }
+
+

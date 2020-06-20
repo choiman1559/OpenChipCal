@@ -188,7 +188,7 @@ public class Board implements Serializable {
         return Math.min(Math.max(i, i2), i3);
     }
 
-    /* access modifiers changed from: private */
+
     public static PuzzleMatrix<Integer> initMatrix(String str, int i) {
         PuzzleMatrix<Integer> puzzleMatrix = new PuzzleMatrix((Object[][]) MAP_MATRIX.get(str));
         for (int i2 = 0; i2 < puzzleMatrix.getNumRow(); i2++) {
@@ -243,6 +243,9 @@ public class Board implements Serializable {
         for (int i = 0; i < 4; i++) {
             d2 += new Rational(array[i]).div(Chip.RATES[i]).getDouble();
             d += new Rational(array2[i]).div(Chip.RATES[i]).getDouble();
+        }
+        if (d == 0.0d) {
+            return 1.0d;
         }
         return d2 / d;
     }

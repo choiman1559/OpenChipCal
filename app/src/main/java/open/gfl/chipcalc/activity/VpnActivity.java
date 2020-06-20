@@ -13,7 +13,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import kotlin.Unit;
 import open.gfl.chipcalc.Global;
 import open.gfl.chipcalc.R;
 import open.gfl.chipcalc.network.GFLInjector;
@@ -26,9 +25,7 @@ import com.github.megatronking.netbare.http.HttpVirtualGatewayFactory;
 import com.github.megatronking.netbare.ip.IpAddress;
 import com.github.megatronking.netbare.ssl.JKS;
 
-import java.io.Closeable;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -37,13 +34,14 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Locale;
+
 import kotlin.Metadata;
 import kotlin.collections.CollectionsKt;
 import kotlin.jvm.internal.Intrinsics;
 import org.json.JSONObject;
 
 @Metadata(bv = {1, 0, 3}, d1 = {"\u0000H\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0002\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0007\u0018\u0000 \u001e2\u00020\u0001:\u0001\u001eB\u0005¢\u0006\u0002\u0010\u0002J\u0010\u0010\u0007\u001a\u00020\b2\u0006\u0010\t\u001a\u00020\bH\u0002J\"\u0010\n\u001a\u00020\u000b2\u0006\u0010\f\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\r2\b\u0010\t\u001a\u0004\u0018\u00010\u000fH\u0014J\b\u0010\u0010\u001a\u00020\u000bH\u0016J\u0012\u0010\u0011\u001a\u00020\u000b2\b\u0010\u0012\u001a\u0004\u0018\u00010\u0013H\u0014J\b\u0010\u0014\u001a\u00020\u000bH\u0014J\u0016\u0010\u0015\u001a\u00020\u000b2\f\u0010\u0016\u001a\b\u0012\u0004\u0012\u00020\u00180\u0017H\u0002J\b\u0010\u0019\u001a\u00020\u000bH\u0002J\u0010\u0010\u001a\u001a\u00020\u000b2\u0006\u0010\t\u001a\u00020\bH\u0003J\u0006\u0010\u001b\u001a\u00020\u000bJ\b\u0010\u001c\u001a\u00020\u000bH\u0002J\b\u0010\u001d\u001a\u00020\u000bH\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X.¢\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0006X\u0004¢\u0006\u0002\n\u0000¨\u0006\u001f"}, d2 = {"Lopen/gfl/chipcalc/activity/VpnActivity;", "Landroidx/appcompat/app/AppCompatActivity;", "()V", "config", "Lcom/github/megatronking/netbare/NetBareConfig;", "reader", "Lopen/gfl/chipcalc/network/GFLReader;", "getUID", "", "data", "onActivityResult", "", "requestCode", "", "resultCode", "Landroid/content/Intent;", "onBackPressed", "onCreate", "savedInstanceState", "Landroid/os/Bundle;", "onResume", "passChipsAndFinish", "chips", "Ljava/util/ArrayList;", "Lopen/gfl/chipcalc/puzzle/Chip;", "prepare", "saveData", "sendNotification", "start", "stop", "Companion", "app_release"}, k = 1, mv = {1, 1, 16})
-/* compiled from: VpnActivity.kt */
 public final class VpnActivity extends AppCompatActivity {
     private static final String NAME = "GFLChipCalc";
     private static final int REQUEST_START_VPN = 1;
@@ -62,12 +60,12 @@ public final class VpnActivity extends AppCompatActivity {
         if (this._$_findViewCache == null) {
             this._$_findViewCache = new HashMap();
         }
-        View view = (View) this._$_findViewCache.get(Integer.valueOf(i));
+        View view = (View) this._$_findViewCache.get(i);
         if (view != null) {
             return view;
         }
         View findViewById = findViewById(i);
-        this._$_findViewCache.put(Integer.valueOf(i), findViewById);
+        this._$_findViewCache.put(i, findViewById);
         return findViewById;
     }
 
@@ -106,7 +104,7 @@ public final class VpnActivity extends AppCompatActivity {
         super.onBackPressed();
     }
 
-    private final String getUID(String str) {
+    private String getUID(String str) {
         try {
             String string = new JSONObject(str).getJSONObject("user_info").getString("user_id");
             Intrinsics.checkExpressionValueIsNotNull(string, "JSONObject(data).getJSON…fo\").getString(\"user_id\")");
@@ -127,34 +125,21 @@ public final class VpnActivity extends AppCompatActivity {
         from.notify(0, contentIntent.build());
     }
 
-    /* access modifiers changed from: private */
-    /* JADX WARNING: Code restructure failed: missing block: B:10:0x007b, code lost:
-        kotlin.io.CloseableKt.closeFinally(r2, r5);
-     */
-    /* JADX WARNING: Code restructure failed: missing block: B:11:0x007e, code lost:
-        throw r0;
-     */
-    /* JADX WARNING: Code restructure failed: missing block: B:9:0x007a, code lost:
-        r0 = move-exception;
-     */
-    /* Code decompiled incorrectly, please refer to instructions dump. */
     public final void saveData(java.lang.String r5) throws IOException {
         Calendar instance = Calendar.getInstance();
         Intrinsics.checkExpressionValueIsNotNull(instance, "Calendar.getInstance()");
         Date time = instance.getTime();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd_HHmm");
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd_HHmm", Locale.getDefault());
         String str2 = getUID(r5) + "_" + simpleDateFormat.format(time) + ".json";
-        if (Intrinsics.areEqual((Object) "mounted", (Object) Environment.getExternalStorageState())) {
-            File file = new File(getExternalFilesDir((String) null), str2);
-            Closeable outputStreamWriter = new OutputStreamWriter(new FileOutputStream(file));
-            Throwable th = null;
-            ((OutputStreamWriter) outputStreamWriter).write(r5);
-            Toast.makeText(this, file.getCanonicalPath(), 1).show();
+        if (Intrinsics.areEqual("mounted", Environment.getExternalStorageState())) {
+            File file = new File(getExternalFilesDir(null), str2);
+            OutputStreamWriter outputStreamWriter = new OutputStreamWriter(new FileOutputStream(file));
+            outputStreamWriter.write(r5);
+            outputStreamWriter.close();
+            Toast.makeText(this, file.getCanonicalPath(), Toast.LENGTH_LONG).show();
         }
-        //TODO : restore
     }
 
-    /* access modifiers changed from: private */
     public final void passChipsAndFinish(ArrayList<Chip> arrayList) {
         Intent intent = new Intent(this, BoardSettingActivity.class);
         intent.putExtra("chips", arrayList);
@@ -162,7 +147,7 @@ public final class VpnActivity extends AppCompatActivity {
         finish();
     }
 
-    private final void prepare() {
+    private void prepare() {
         NetBare.get().attachApplication(getApplication(), false);
         char[] charArray = NAME.toCharArray();
         Intrinsics.checkExpressionValueIsNotNull(charArray, "(this as java.lang.String).toCharArray()");
@@ -171,7 +156,7 @@ public final class VpnActivity extends AppCompatActivity {
         this.config = build;
     }
 
-    private final void start() {
+    private void start() {
         Intent prepare = NetBare.get().prepare();
         if (prepare != null) {
             startActivityForResult(prepare, 1);
@@ -189,7 +174,7 @@ public final class VpnActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private final void stop() {
+    private void stop() {
         NetBare.get().stop();
     }
 }
