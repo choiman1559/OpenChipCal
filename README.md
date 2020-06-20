@@ -17,4 +17,4 @@ Open-Sorce version of [GFChipCalc-android](https://play.google.com/store/apps/de
   - 이 소프트웨어는 WINE과 같은 방법으로 제작되었으며, 대한민국의 저작권법 (제 2조 34항, 제 101조의 4, 제 104조의 2)을 준수한 적법한 과정 아래 GFChipCalc-android 를 리버싱해 제작되었습니다.
   - 이 소프트웨어에 삽입된 소스는 GFChipCalc-android 가 아닌, GFChipCalc 을(를) 기반으로 작성되었습니다.
   - 이 소프트웨어는 GNU General Public License v2.0 을 적용받으며, 이에 따라 보호됩니다.
-  - Girls Frontline® 및 관련 이미지의 모든 저작권은 Sunborn Network Technology Co., Ltd. 에게 있으며, 법적으로 보호됩니다.
+  - Girls Frontline® 및 관련 이미지의 모든 저작권 및 상표권은 Sunborn Network Technology Co., Ltd. 에게 있으며, 법적으로 보호됩니다.
