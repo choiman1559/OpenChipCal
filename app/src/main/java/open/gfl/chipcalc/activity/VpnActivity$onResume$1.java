@@ -23,7 +23,6 @@ final class VpnActivity$onResume$1 implements DialogInterface.OnClickListener {
     public final void onClick(DialogInterface dialogInterface, int i) {
         VpnActivity vpnActivity = this.this$0;
         String str = this.$data;
-        Intrinsics.checkExpressionValueIsNotNull(str, "data");
         try {
             vpnActivity.saveData(str);
         } catch (IOException e) {

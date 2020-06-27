@@ -43,9 +43,7 @@ public final class AboutActivity extends AppCompatActivity {
         setContentView((int) R.layout.activity_about);
         ImageView imageView = (ImageView) findViewById(R.id.devImageView);
         Resources resources = getResources();
-        Intrinsics.checkExpressionValueIsNotNull(resources, "resources");
         int i = resources.getDisplayMetrics().widthPixels;
-        Intrinsics.checkExpressionValueIsNotNull(imageView, "logoImageView");
         imageView.getLayoutParams().width = i / 3;
     }
 

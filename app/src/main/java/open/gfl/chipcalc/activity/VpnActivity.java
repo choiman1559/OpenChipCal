@@ -107,7 +107,6 @@ public final class VpnActivity extends AppCompatActivity {
     private String getUID(String str) {
         try {
             String string = new JSONObject(str).getJSONObject("user_info").getString("user_id");
-            Intrinsics.checkExpressionValueIsNotNull(string, "JSONObject(data).getJSON…fo\").getString(\"user_id\")");
             return string;
         } catch (Exception unused) {
             return "Unknown";
@@ -121,13 +120,11 @@ public final class VpnActivity extends AppCompatActivity {
         intent.setAction("android.intent.action.MAIN");
         NotificationCompat.Builder contentIntent = new NotificationCompat.Builder(context, Global.CHANNEL_ID).setSmallIcon(R.drawable.ic_launcher).setContentTitle(getString(R.string.notification_success_title)).setContentText(getString(R.string.notification_success)).setPriority(1).setDefaults(-1).setAutoCancel(true).setContentIntent(PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT));
         NotificationManagerCompat from = NotificationManagerCompat.from(context);
-        Intrinsics.checkExpressionValueIsNotNull(from, "NotificationManagerCompat.from(this)");
         from.notify(0, contentIntent.build());
     }
 
     public final void saveData(java.lang.String r5) throws IOException {
         Calendar instance = Calendar.getInstance();
-        Intrinsics.checkExpressionValueIsNotNull(instance, "Calendar.getInstance()");
         Date time = instance.getTime();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd_HHmm", Locale.getDefault());
         String str2 = getUID(r5) + "_" + simpleDateFormat.format(time) + ".json";
@@ -150,9 +147,7 @@ public final class VpnActivity extends AppCompatActivity {
     private void prepare() {
         NetBare.get().attachApplication(getApplication(), false);
         char[] charArray = NAME.toCharArray();
-        Intrinsics.checkExpressionValueIsNotNull(charArray, "(this as java.lang.String).toCharArray()");
         NetBareConfig build = new NetBareConfig.Builder().dumpUid(false).setMtu(4096).setAddress(new IpAddress("10.1.10.1", 32)).addRoute(new IpAddress("0.0.0.0", 0)).setSession(NAME).setVirtualGatewayFactory(new HttpVirtualGatewayFactory(new JKS(getApplication(), NAME, charArray, NAME, NAME, NAME, NAME, NAME), CollectionsKt.listOf(HttpInjectInterceptor.createFactory(new GFLInjector(this.reader))))).build();
-        Intrinsics.checkExpressionValueIsNotNull(build, "NetBareConfig.Builder()\n…r)))\n            .build()");
         this.config = build;
     }
 

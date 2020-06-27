@@ -1,7 +1,6 @@
 package open.gfl.chipcalc.activity;
 
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -104,7 +103,6 @@ public final class CalculateActivity extends AppCompatActivity {
             ArrayList arrayList3 = (ArrayList) bundle;
             String str5 = "name";
             String stringExtra = getIntent().getStringExtra(str5);
-            Intrinsics.checkExpressionValueIsNotNull(stringExtra, "intent.getStringExtra(\"name\")");
             this.name = stringExtra;
             this.star = getIntent().getIntExtra("star", 5);
             int intExtra = getIntent().getIntExtra("templateIndex", -1);
@@ -123,9 +121,7 @@ public final class CalculateActivity extends AppCompatActivity {
                     if (statTemplate == null) {
                         Intrinsics.throwNpe();
                     }
-                    Intrinsics.checkExpressionValueIsNotNull(statTemplate, "StatTemplate.PRESET[name]?.get(templateIndex)!!");
                     stat = statTemplate.stat;
-                    Intrinsics.checkExpressionValueIsNotNull(stat, "sTemplate.stat");
                     this.stat = stat;
                     map = Board.MAP_COLOR;
                     str2 = this.name;
@@ -153,7 +149,6 @@ public final class CalculateActivity extends AppCompatActivity {
                     for (Object next : (List) arrayList) {
                         chip = (Chip) next;
                         str3 = chip.hoc;
-                        Intrinsics.checkExpressionValueIsNotNull(str3, "c.hoc");
                         if ((((CharSequence) str3).length() != 0 ? 1 : null) == null) {
                             str = chip.hoc;
                             str3 = this.name;
@@ -217,7 +212,6 @@ public final class CalculateActivity extends AppCompatActivity {
                 Intrinsics.throwUninitializedPropertyAccessException(str5);
             }
             stat = Board.getMaxStat(stringExtra, this.star);
-            Intrinsics.checkExpressionValueIsNotNull(stat, "Board.getMaxStat(name, star)");
             this.stat = stat;
             map = Board.MAP_COLOR;
             str2 = this.name;
@@ -245,7 +239,6 @@ public final class CalculateActivity extends AppCompatActivity {
             for (Object next22 : (List) arrayList) {
                 chip = (Chip) next22;
                 str3 = chip.hoc;
-                Intrinsics.checkExpressionValueIsNotNull(str3, "c.hoc");
                 if (((CharSequence) str3).length() != 0) {
                 }
                 if ((((CharSequence) str3).length() != 0 ? 1 : null) == null) {
@@ -339,7 +332,6 @@ public final class CalculateActivity extends AppCompatActivity {
     final void updateTime() {
         this.time = System.currentTimeMillis() - this.startTime;
         TextView textView = findViewById(R.id.timerTextView);
-        Intrinsics.checkExpressionValueIsNotNull(textView, "timerTextView");
         textView.setText(getTime(Math.max(0, ((long) 30000) - this.time)));
     }
 
@@ -358,11 +350,9 @@ public final class CalculateActivity extends AppCompatActivity {
         String str2 = "%02d";
         String format = String.format(str2, copyOf);
         String str3 = "java.lang.String.format(format, *args)";
-        Intrinsics.checkExpressionValueIsNotNull(format, str3);
         stringBuilder.append(format);
         stringBuilder.append(str);
         j = Long.parseLong(String.format(str2, Arrays.copyOf(new Object[]{Long.valueOf(j)}, 1)));
-        Intrinsics.checkExpressionValueIsNotNull(j, str3);
         stringBuilder.append(j);
         return stringBuilder.toString();
     }

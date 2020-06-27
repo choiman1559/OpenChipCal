@@ -102,9 +102,7 @@ public final class ImportActivity extends AppCompatActivity {
     private void initNotificationChannel() {
         if (Build.VERSION.SDK_INT >= 26) {
             String string = getString(R.string.channel_name);
-            Intrinsics.checkExpressionValueIsNotNull(string, "getString(R.string.channel_name)");
             String string2 = getString(R.string.channel_description);
-            Intrinsics.checkExpressionValueIsNotNull(string2, "getString(R.string.channel_description)");
             NotificationChannel notificationChannel = new NotificationChannel(Global.CHANNEL_ID, string, NotificationManager.IMPORTANCE_LOW);
             notificationChannel.setDescription(string2);
             Object systemService = getSystemService(Context.NOTIFICATION_SERVICE);

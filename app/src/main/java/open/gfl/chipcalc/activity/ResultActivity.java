@@ -63,7 +63,6 @@ public final class ResultActivity extends AppCompatActivity {
                     arrayList2.add(new Board(stringExtra, intExtra, stat, assembledResult.chips, assembledResult.locations));
                 }
                 ListView listView = findViewById(R.id.resultListView);
-                Intrinsics.checkExpressionValueIsNotNull(listView, "resultListView");
                 listView.setAdapter(new BoardAdapter(this, arrayList2));
                 listView.invalidate();
                 listView.setOnItemClickListener(listItemClick(arrayList2));

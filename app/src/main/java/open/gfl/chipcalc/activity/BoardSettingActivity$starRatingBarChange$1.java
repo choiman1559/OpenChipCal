@@ -14,7 +14,6 @@ final class BoardSettingActivity$starRatingBarChange$1 implements RatingBar.OnRa
     }
 
     public final void onRatingChanged(RatingBar ratingBar, float f, boolean z) {
-        Intrinsics.checkExpressionValueIsNotNull(ratingBar, "ratingBar");
         ratingBar.setRating(Math.max(f, 1.0f));
         this.this$0.updateTemplate();
     }

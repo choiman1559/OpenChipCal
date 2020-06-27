@@ -61,18 +61,14 @@ public final class BoardActivity extends AppCompatActivity {
             CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.ctLayout);
             ChipGridView chipGridView = (ChipGridView) findViewById(R.id.chipGridView);
             FloatingActionButton floatingActionButton = (FloatingActionButton) findViewById(R.id.fab);
-            Intrinsics.checkExpressionValueIsNotNull(collapsingToolbarLayout, "ctLayout");
             collapsingToolbarLayout.setTitle(Global.fPercStr(board.statPerc));
             floatingActionButton.bringToFront();
             floatingActionButton.setOnClickListener(new BoardActivity$onCreate$1(this));
             ((BoardView) findViewById(R.id.boardView)).setBoard(board);
             Resources resources = getResources();
-            Intrinsics.checkExpressionValueIsNotNull(resources, "resources");
             int i = resources.getDisplayMetrics().widthPixels;
-            Intrinsics.checkExpressionValueIsNotNull(chipGridView, "chipGridView");
             chipGridView.setColumnWidth(i / (i / WIDTH_UNIT));
             ArrayList<Chip> arrayList = board.chips;
-            Intrinsics.checkExpressionValueIsNotNull(arrayList, "board.chips");
             for (Chip chip : arrayList) {
                 this.chips.add(new Chip(chip));
             }
@@ -97,20 +93,16 @@ public final class BoardActivity extends AppCompatActivity {
         this.max = !this.max;
         FloatingActionButton floatingActionButton = (FloatingActionButton) findViewById(R.id.fab);
         if (this.max) {
-            Intrinsics.checkExpressionValueIsNotNull(floatingActionButton, "fab");
             floatingActionButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(this, R.color.chip_level)));
             int size = this.chips.size();
             for (int i = 0; i < size; i++) {
                 Chip chip = this.chips.get(i);
-                Intrinsics.checkExpressionValueIsNotNull(chip, "chips[i]");
                 Chip chip2 = chip;
                 chip2.setMaxLevel();
                 Integer num = this.chipRots.get(i);
-                Intrinsics.checkExpressionValueIsNotNull(num, "chipRots[i]");
                 chip2.setRotation(num.intValue());
             }
         } else {
-            Intrinsics.checkExpressionValueIsNotNull(floatingActionButton, "fab");
             floatingActionButton.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(this, R.color.colorAccent)));
             for (Chip chip3 : this.chips) {
                 chip3.resetLevel();

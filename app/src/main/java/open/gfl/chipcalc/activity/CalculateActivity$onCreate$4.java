@@ -23,7 +23,6 @@ public final class CalculateActivity$onCreate$4 implements Runnable {
     public void run() {
         this.this$0.updateTime();
         TextView textView = this.$percentTextView;
-        Intrinsics.checkExpressionValueIsNotNull(textView, "percentTextView");
         textView.setText(this.this$0.getString(R.string.calculate_highest_found) + " : " + Global.fPercStr(CalculateActivity.access$getAssembler$p(this.this$0).getHighestPercent()));
         if (!CalculateActivity.access$getAssembler$p(this.this$0).done() && ((long) 30000) < this.this$0.time) {
             CalculateActivity.access$getAssembler$p(this.this$0).stop();
