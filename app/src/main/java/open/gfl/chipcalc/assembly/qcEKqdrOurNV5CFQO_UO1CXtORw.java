@@ -1,6 +1,6 @@
 package open.gfl.chipcalc.assembly;
 
-/* compiled from: lambda */
+
 public final /* synthetic */ class qcEKqdrOurNV5CFQO_UO1CXtORw implements Runnable {
     private final /* synthetic */ Assembler f$0;
     private final /* synthetic */ BoardTemplate f$1;

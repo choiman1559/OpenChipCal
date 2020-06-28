@@ -1,5 +1,7 @@
 package open.gfl.chipcalc.assembly;
 
+import org.jetbrains.annotations.NotNull;
+
 import open.gfl.chipcalc.puzzle.Chip;
 import open.gfl.chipcalc.puzzle.ChipComparator;
 import java.util.ArrayList;
@@ -124,7 +126,7 @@ public class CCIterator implements Iterator<List<Chip>> {
         return hashMap;
     }
 
-    static boolean hasEnoughChips(Map<String, List<Chip>> map, BoardTemplate boardTemplate) {
+    static boolean hasEnoughChips(Map<String, List<Chip>> map, @NotNull BoardTemplate boardTemplate) {
         Map<String, Integer> map2 = boardTemplate.nameCountMap;
         for (String next : map2.keySet()) {
             if (getSize(map, next) < map2.get(next)) {
